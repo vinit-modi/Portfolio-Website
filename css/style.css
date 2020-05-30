@@ -8,7 +8,8 @@
     padding-top: 2rem;
     margin-top: 3rem;
     margin-left: 1.5rem;
-    font-family: "Roboto",normal;
+    font-family: "Roboto" cursive;
+    letter-spacing: 2px;
 }
 
 .site-banner .site-title h1{
@@ -16,6 +17,7 @@
     font-size: 3rem;
     font-family: "Roboto",normal;
     margin-left: 1.5rem;
+    letter-spacing: 1px;
 }
 
 .site-banner .site-title h5{
@@ -94,3 +96,48 @@
 
 
 /* End Navbar */
+
+/* Start about area */
+
+
+.about-area .about-image .img-fluid{
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px 10px 10px;
+    margin-top: 80px;
+}
+
+.about-area .about-title h2 > span{
+    display: block;
+    letter-spacing: 2px;
+    font: normal 40px/60px "Roboto";
+}
+
+.about-area .about-title h2{
+    padding: 3rem 2rem 2rem 2rem;
+    margin-top: 3rem;
+}
+
+.about-area .about-title p{
+    padding: 0.4rem 1rem;
+} 
+
+.about-area .about-title .btn{
+    padding: 5 2 5 2;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #854fee;
+    color: white;
+    font-weight: 500;
+    font-family: "Roboto",normal;
+    margin-left: 1.5rem;
+}
+
+.about-area .about-title .btn:hover{
+    background-color: white;
+    color: black;
+    border-color: #4458dc;
+    font-weight: 500;
+}
+
+/* End about area */
