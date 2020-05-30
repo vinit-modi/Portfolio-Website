@@ -1,39 +1,77 @@
-
-/* import fonts from fonts.css file */
 @import url(./fonts.css);
 
-/* css variables */
-@import url(./partials/_variables.css);
-/* Start navigation */
+/* Start Banner Area  */
 
-.header_area .main-menu .navbar .navbar-brand{
-    padding: 0 2rem 0 1rem;
+.site-banner .site-title h3{
+    font-weight: 500;
+    font-size: 2rem;
+    padding-top: 4rem;
+    margin-top: 8rem;
+    font-family: "Roboto",cursive;
 }
 
-.header_area .main-menu .navbar{
-    padding: 0.7rem 4rem;
+.site-banner .site-title h1{
+    font-weight: 500;
+    font-size: 3rem;
+    font-family: "Roboto",cursive;
 }
 
-.header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
-    text-transform: uppercase;
-    padding: 1.7rem;
-    color: var(--title-color);
+.site-banner .site-title h5{
+    font-family: "Roboto",cursive;
 }
 
-
-.header_area .main-menu .navbar-nav .active a{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.site-banner .site-title .btn1{
+    padding: 5 2 5 2;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #854fee;
+    color: white;
+    font-weight: 500;
+    font-family: "Roboto",cursive;
 }
+
+.site-banner .site-title .btn1:hover{
+    background-color: white;
+    color: black;
+    border-color: #4458dc;
+    font-weight: 500;
+
+}
+
+.site-banner .site-title .btn2{
+    padding: 5 2 5 2;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color: #4458dc;
+    color: black;
+    font-weight: 500;
+    margin-left: 7px;
+    background-color: white;
+    font-family: "Roboto",cursive;
+}
+
+.site-banner .site-title .btn2:hover{
+    background-color: #854fee;
+    color: white;
+    border-color: #4458dc;
+    font-weight: 500;
+}
+
+/* End Banner Area  */
+
+/* Start Navbar */
+
+.header_area .main-menu .navbar-nav a{
+    font-family: "Roboto",cursive;
+}
+
 
 .header_area .main-menu .navbar-nav a:hover{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #854fee;
 }
 
-/* End navigation */
+.header_area .main-menu .navbar-nav .main-page{
+    color: #854fee;
+}
+
+/* End Navbar */
