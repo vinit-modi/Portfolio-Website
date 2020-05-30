@@ -7,17 +7,17 @@
     font-size: 2rem;
     padding-top: 4rem;
     margin-top: 8rem;
-    font-family: "Roboto",cursive;
+    font-family: "Roboto",normal;
 }
 
 .site-banner .site-title h1{
     font-weight: 500;
     font-size: 3rem;
-    font-family: "Roboto",cursive;
+    font-family: "Roboto",normal;
 }
 
 .site-banner .site-title h5{
-    font-family: "Roboto",cursive;
+    font-family: "Roboto",normal;
 }
 
 .site-banner .site-title .btn1{
@@ -27,7 +27,7 @@
     background-color: #854fee;
     color: white;
     font-weight: 500;
-    font-family: "Roboto",cursive;
+    font-family: "Roboto",normal;
 }
 
 .site-banner .site-title .btn1:hover{
@@ -47,7 +47,7 @@
     font-weight: 500;
     margin-left: 7px;
     background-color: white;
-    font-family: "Roboto",cursive;
+    font-family: "Roboto",normal;
 }
 
 .site-banner .site-title .btn2:hover{
@@ -62,7 +62,7 @@
 /* Start Navbar */
 
 .header_area .main-menu .navbar-nav a{
-    font-family: "Roboto",cursive;
+    font-family: "Roboto",normal;
 }
 
 
