@@ -5,8 +5,9 @@
 .site-banner .site-title h3{
     font-weight: 500;
     font-size: 2rem;
-    padding-top: 4rem;
-    margin-top: 8rem;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
     font-family: "Roboto",normal;
 }
 
@@ -14,10 +15,12 @@
     font-weight: 500;
     font-size: 3rem;
     font-family: "Roboto",normal;
+    margin-left: 3rem;
 }
 
 .site-banner .site-title h5{
     font-family: "Roboto",normal;
+    margin-left: 3rem;
 }
 
 .site-banner .site-title .btn1{
@@ -28,6 +31,7 @@
     color: white;
     font-weight: 500;
     font-family: "Roboto",normal;
+    margin-left: 3rem;
 }
 
 .site-banner .site-title .btn1:hover{
@@ -57,6 +61,11 @@
     font-weight: 500;
 }
 
+.site-banner .banner-image{
+    padding-top: 4rem;
+    padding-right: 10px;
+}
+
 /* End Banner Area  */
 
 /* Start Navbar */
@@ -73,5 +82,14 @@
 .header_area .main-menu .navbar-nav .main-page{
     color: #854fee;
 }
+
+.header_area .main-menu .navbar-nav .nav-item a{
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
 
 /* End Navbar */
