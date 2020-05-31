@@ -1,3 +1,3 @@
 # Website
 
-This is a Portfolia Website.
+This is a Portfolio Website.
