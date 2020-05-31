@@ -6,3 +6,8 @@
     font-family: "Roboto";
     src: '../fonts/Roboto/Roboto-Regular.ttf';
 }
+
+@font-face{
+    font-family: "Tenali";
+    sec: '../fonts/TenaliRamakrishna-Regular.ttf'
+}
