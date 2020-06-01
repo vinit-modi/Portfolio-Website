@@ -2,7 +2,7 @@
 
 .full-body{
     background-image: url(../img/background.svg);
-}
+} 
 
 
 /* Start Banner Area  */
@@ -130,7 +130,7 @@
 }
 
 .about-area .about-title h2{
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2.4rem 2rem 2rem 2rem;
     margin-top: 1rem;
 }
 
@@ -158,8 +158,53 @@
 }
 
 .about-area .paragraph .para{
-    font: normal 500 18px/ 25px "Roboto"
-    color: #777777;  
+    font: normal 500 18px/ 25px;
+    /* color: #777777 */
 }
 
 /* End about area */
+
+/* Start Footer area */
+
+
+
+.footer-area .social h5{
+    font: normal 500 23px/30px "Roboto";
+}
+
+.footer-area .site-logo a{
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: black;
+}
+
+.footer-area .social a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 2rem;
+    color: #854fee;
+}
+
+.footer-area .copyrights p{
+    margin-bottom: 25px;
+}
+
+.footer-area .social .fb:hover{
+    color: #3b5998;
+}
+
+.footer-area .social .insta:hover{
+    color: #8a3ab9;
+}
+
+.footer-area .social .linked:hover{
+    color: #0e76a8;
+}
+
+.footer-area .social .git:hover{
+    color: #211F1F;
+}
+
+
+/* End Footer area */
