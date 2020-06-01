@@ -166,8 +166,6 @@
 
 /* Start Footer area */
 
-
-
 .footer-area .social h5{
     font: normal 500 23px/30px "Roboto";
 }
@@ -182,7 +180,7 @@
 .footer-area .social a{
     text-decoration: none;
     font-size: 30px;
-    padding: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     color: #854fee;
 }
 
