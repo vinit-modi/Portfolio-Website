@@ -88,6 +88,10 @@
     color: #854fee;
 }
 
+.header_area .main-menu .navbar-brand:hover{
+    color: #854fee;
+}
+
 .header_area .main-menu .navbar-nav .main-page{
     color: #854fee;
 }
@@ -198,6 +202,10 @@
 
 .footer-area .social .git:hover{
     color: #211F1F;
+}
+
+.footer-area .logo-name .footer-logo:hover{
+    color: #854fee;
 }
 
 
