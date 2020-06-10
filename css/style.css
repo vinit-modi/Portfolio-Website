@@ -88,10 +88,6 @@
     color: #854fee;
 }
 
-.header_area .main-menu .navbar-brand:hover{
-    color: #854fee;
-}
-
 .header_area .main-menu .navbar-nav .main-page{
     color: #854fee;
 }
@@ -204,9 +200,11 @@
     color: #211F1F;
 }
 
-.footer-area .logo-name .footer-logo:hover{
+.footer-area .logo-name .footer-logo .logo-class:hover{
     color: #854fee;
 }
+
+
 
 
 /* End Footer area */

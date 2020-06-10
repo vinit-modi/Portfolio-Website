@@ -9,3 +9,15 @@ $(".footer-logo").click(function() {
         scrollTop: $(".header_area").offset().top},
         'slow');
 });
+
+$(document).ready(function(){
+     $(".footer-logo, .navbar-brand").mouseover(function(){
+         $(".logo-class").css("color", "#854fee");
+     });
+});
+
+$(document).ready(function(){
+    $(".footer-logo, .navbar-brand").mouseout(function(){
+        $(".logo-class").css("color", "black");
+    });
+});
