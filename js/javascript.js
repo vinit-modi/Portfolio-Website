@@ -21,3 +21,9 @@ $(document).ready(function(){
         $(".logo-class").css("color", "black");
     });
 });
+
+$(function() {
+    $(document).click(function (event) {
+      $('.navbar-collapse').collapse('hide');
+    });
+  });
