@@ -6,7 +6,6 @@
     <link rel="shortcut icon" href="./img/tab_logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script data-ad-client="ca-pub-7291220957312244" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
      <!-- Linkedin widget mandatory link -->
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
@@ -41,7 +40,7 @@
                     <li class="nav-item project-button">
                       <a class="nav-link" href="#">Projects</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item contact-button">
                       <a class="nav-link last" href="#" style="margin-right: 50px;">Contact</a>
                     </li>
                   </ul>
@@ -163,6 +162,37 @@
   </div>
 </section>
 
+<!-- =============================== Start Contact area ==============================  -->
+<section class="contact-area" id="contact_page">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6 mx-auto">
+              <form id="contact-form" method="post" action="https://formspree.io/YOUR_EMAIL" role="form">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <label for="name">Your Name</label>
+                          <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                      </div>
+                      <div class="col-md-6">
+                          <label for="email">Your Email</label>
+                          <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                      </div>
+                      <div class="col-md-12">
+                          <label for="message">Your Message</label>
+                          <textarea class="form-control" id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+                      </div>
+                      <div class="col-md-12 text-center">
+                          <button type="submit" class="btn btn-outline-primary">Send Message</button>
+                      </div>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- =============================== End Contact area ==============================  -->
+
+
 <!-- =============================== End Projects area ==============================  -->
 
     <!-- =============================== End main area ==============================  -->
@@ -197,6 +227,9 @@
 
     <!-- Javascript file -->
     <script src="./js/javascript.js"></script>
+
+    <!-- Javascript file -->
+    <script src="./js/form-handler.js"></script>
 </body>
 </html>
 

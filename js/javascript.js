@@ -25,6 +25,15 @@ $(".project-button").click(function () {
   );
 });
 
+$(".contact-button").click(function () {
+  $("html,body").animate(
+    {
+      scrollTop: $(".contact-area").offset().top,
+    },
+    "slow"
+  );
+});
+
 $(document).ready(function () {
   $(".footer-logo, .navbar-brand").mouseover(function () {
     $(".logo-class").css("color", "#854fee");
