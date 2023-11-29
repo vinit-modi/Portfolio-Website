@@ -16,6 +16,15 @@ $(".footer-logo").click(function () {
   );
 });
 
+$(".btn1").click(function () {
+  $("html,body").animate(
+    {
+      scrollTop: $(".contact-area").offset().top,
+    },
+    "slow"
+  );
+});
+
 $(".project-button").click(function () {
   $("html,body").animate(
     {
