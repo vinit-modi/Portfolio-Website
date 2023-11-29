@@ -259,6 +259,14 @@
     border-color: #854fee;
 }
 
+/* Media Query for Mobile */
+@media (max-width: 767px) {
+    .projects-area .card {
+        margin-bottom: 20px; 
+    }
+}
+
+
 /* End Projects area */
 
 
