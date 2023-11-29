@@ -113,8 +113,11 @@
 
 /* Start about area */
 
+.about-area {
+    padding-left: 6%; /* Add space on the left side */
+}
 
-.about-area .about-image .img-fluid{
+.about-area .about-image .img-fluid {
     width: 100%;
     height: 100%;
     padding: 0px 10px 10px 10px;
@@ -122,47 +125,72 @@
     margin-bottom: 40px;
 }
 
-.about-area .about-title h2 > span{
+.about-area .about-title h2 > span {
     display: block;
     letter-spacing: 2px;
-    font: normal 40px/60px "Roboto";
+    font: normal 50px/60px "Roboto";
     margin-left: -15px;
 }
 
-.about-area .about-title h2{
+.about-area .about-title h2 {
     padding: 2.4rem 2rem 2rem 2rem;
     margin-top: 1rem;
 }
 
-.about-area .about-title p{
+.about-area .about-title p {
+    font: normal 500 20px/28px;
     padding: 0.2rem 1rem;
-} 
+}
 
-.about-area .about-title .btn{
-    /* padding: 5px 2px 5px 2px; */
+.about-area .about-title .btn {
     margin-top: 20px;
     border-radius: 5px;
     background-color: #854fee;
     color: white;
     font-weight: 500;
-    font-family: "Roboto",normal;
+    font-family: "Roboto", normal;
     margin-left: 17px;
     margin-bottom: 50px;
 }
 
-.about-area .about-title .btn:hover{
+.about-area .about-title .btn:hover {
     background-color: white;
     color: black;
     border-color: #4458dc;
     font-weight: 500;
 }
 
-.about-area .paragraph .para{
-    font: normal 500 18px/ 25px;
+.about-area .paragraph .para {
+    font: normal 500 20px/28px;
     /* color: #777777 */
 }
 
+/* Media Query for Mobile */
+@media (max-width: 767px) {
+    .about-area {
+        padding-left: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .about-area .about-title h2 > span {
+        font-size: 40px; /* Adjust font size for smaller screens */
+    }
+
+    .about-area .about-title p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .about-area .about-title .btn {
+        margin-left: 10px; /* Adjust margin for smaller screens */
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .about-area .paragraph .para {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+}
+
 /* End about area */
+
 
 /* Start Footer area */
 
